@@ -24,5 +24,5 @@ function fish_prompt
         set git_info "$git_info$dirty"
         end
      end
-    echo -n -s $white'['$uzr$white'@'$host$white'['$cwd $git_info $white']'$white                                                                                                 e'$'
+    echo -n -s $white'['$uzr$white'@'$host$white'['$cwd $git_info $white']'$white'$'
 end
